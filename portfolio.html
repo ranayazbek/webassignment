@@ -1,2 +1,161 @@
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Rana yazbek</h1>
+        <h2>Web Developer</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Work Experience</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="C:\Users\Mohammad\Desktop\assignments\webassignment\rana.jpg" alt="my profile picture" width="200" >
+            <p>Hello! I'm a passionate web developer with one year of experience building websites.</p>
+            <p>I specialize in front-end development.</p>
+        </section>
+
+
+        <section id="education">
+            <h2>My education</h2>
+            
+            <article>
+                <h3>Bachelor degree</h3>
+                <p>Bachelor degree in computer science</p>
+                <p>Lebanese International University</p>
+                <p> GPA: 3.7 </p>
+            </article>
+            
+            <article>
+               
+                <h3>Baccalaurate degree</h3>
+                <p>Life sciences section</p>
+                <p>Alkaramah High School</p>
+                <p>Average: 16.7 </p>
+            </article>
+        </section>
+
+        
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <table border="1">
+                <tr>
+                    <th>Company</th>
+                    <th>Years of Experience</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>UNHCR Data entry</td>
+                    <td>2020-2021</td>
+                    <td>Data entry in a pollution reduction via recycle project</td>
+                </tr>
+                <tr>
+                    <td>Nahle Developing Organization</td>
+                    <td>2020-2021</td>
+                    <td>Data entry and computer teacher</td>
+                </tr>
+                <tr>
+                    <td>Yahfoufi organization</td>
+                    <td>2023-2024</td>
+                    <td>Data entry and computer teacher (office)</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Education Section -->
+        <section id="courses">
+            <h2>My courses</h2>
+            <ul>
+                <li>
+                    <strong>Networking cisco certfied course</strong>
+                    <p>Girls Got IT, 2017</p>
+                </li>
+                <li>
+                    <strong>Leadership and team-work strategies</strong>
+                    <p>Unicif, 2017</p>
+                </li>
+                <li>
+                    <strong>Networking cisco certfied course: Introduction to networking</strong>
+                    <p>LIU, 2019</p>
+                </li>
+                <li>
+                    <strong>Networking cisco certfied course: Routing and switching</strong>
+                    <p>LIU, 2020</p>
+                </li>
+                <li>
+                    <strong>Call Center</strong>
+                    <p>DOT, 2022</p>
+                </li>
+                <li>
+                    <strong>UI/ UX design </strong>
+                    <p>Google certificate, 2023</p>
+                </li>
+                <li>
+                    <strong>Google IT automation with python </strong>
+                    <p>Google certificate, 2023</p>
+                </li>
+                <li>
+                    <strong>Foundations of computer science </strong>
+                    <p>SE Factory, undergoing</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <fieldset>
+                    <legend>Send a Message</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <select id="subject" name="subject">
+                        <option value="work">Work Inquiry</option>
+                        <option value="question">Question</option>
+                        <option value="other">Other</option>
+                    </select>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+            
+            <address>
+                <p>Email: <a href="mailto:rana.yazbekk@gmail.com">rana.yazbekk@gmail.com</a></p>
+                <p>Phone: <a href="tel:+96176699778">"+961 (76) 699778"</a></p>
+                <p>Location: Zahleh, Beqaa, Lebanon</p>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://github.com/ranayazbek" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/rana-yazbek" target="_blank">LinkedIn</a> |
+        </div>
+    </footer>
+</body>
+</html>
